@@ -1,31 +1,11 @@
-/  if(args.Length > 0)
-            // {
-            //     Console.WriteLine($"Hello, {args[0]}!");
-            // }
-            // else{
-            //     Console.WriteLine("Error - The array has no values entered.");
-            // }
+This project is a gradebook which is used to hold data for individual students grades.
+It is a basic console application written in c# using .net core runtime and library.
+I have also produced a test project file and completed some inital tests, however I have more to complete.
+I have added a solution file so that I do not have to keep changing projects in the terminal when I run tests. I can now just test and build in the same place.
+I also aim to re-factor some code and I will also add more functionality to the application.
 
-            // double x = 50.5;
-            // double y = 5.5;
+Things to do:
 
-            // double result = x + y;
-
-            // Console.WriteLine($"The sum of x plus y is {result}");
-
-            
-            // var numbers = new [] {10.5, 5.5, 2.5};
-
-
-           
-            // double ResultArray = numbers[0] + numbers[1] + numbers[2];
-            // Console.WriteLine($"{ResultArray}");
-
-            // var results = 0.0;
-            // foreach(var number in numbers) 
-            // {
-            //     results += number;
-
-
-            // }
-            // Console.WriteLine(results);
+More functionality.
+Further testing.
+Code re-factoring.
