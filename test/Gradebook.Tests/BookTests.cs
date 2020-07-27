@@ -4,10 +4,10 @@ using Xunit;
 
 namespace Gradebook.Tests
 {
-    public class UnitTest1
+    public class BookTests
     {
         [Fact]
-        public void BookTests()
+        public void BookCalculatesAnAverageGrade()
         {
             //Typically, tests are split into three sections.
 

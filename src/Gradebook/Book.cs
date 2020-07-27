@@ -11,7 +11,7 @@ namespace Gradebook
         public Book(string name) //This is the constructor for the Book class. This takes a name and also the grades list
         {
             grades = new List<double>();
-            this.name = name;
+            Name = name;
         }
         public void AddGrade(double grade) // This is an addGrade method, it allows another grade to be added to the book
         {
@@ -44,7 +44,7 @@ namespace Gradebook
         }
 
         private List<double> grades; // These are the fields which are being used in this class.
-        private string name;
+        public string Name;
 
     }
 //-------------------------------------------------- Below is some earlier code that I messed around with.
